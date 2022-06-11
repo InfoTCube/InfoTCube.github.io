@@ -1,0 +1,55 @@
+.top-animate {
+    transition: transform 400ms;
+}
+
+.top-animate:hover {
+    transform: translateY(-10px);
+}
+
+.spin:hover {
+    animation: shake 1s linear infinite alternate-reverse;
+}
+
+@keyframes shake {
+    50% {
+        transform: rotateZ(0.005turn);
+    }
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav-place {
+    height: 3.5rem;
+}
+
+.section {
+    width: 90%;
+}
+
+.skill-block {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.logo {
+    filter: invert(100%);
+    transition: transform 400ms;
+}
+
+.logo:hover {
+    filter: invert(100%);
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 600px) {
+    .hide-mobile 
+    {display:none;}
+    .center-on-mobile
+    {text-align: center;}
+}
