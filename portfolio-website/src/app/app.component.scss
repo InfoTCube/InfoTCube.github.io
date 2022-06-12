@@ -105,6 +105,24 @@
   transform: translateY(-50%);
 }
 
+.area {
+    width: 90%;
+}
+
+.socials {
+    width: 40%;
+    height: 100px;
+}
+
+.contact-form {
+    width: 60%;
+    height: 100px;
+}
+
+.email {
+    border-radius: 20px;
+}
+
 @keyframes go-in {
     0% {
         opacity: 0;
